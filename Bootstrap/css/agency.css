@@ -5,7 +5,8 @@
  */
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: black;}
 
 p {
   line-height: 1.75; }
@@ -30,7 +31,8 @@ section {
   section h2.section-heading {
     font-size: 40px;
     margin-top: 0;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+    color: rgb(192,180,157);}
   section h3.section-subheading {
     font-size: 16px;
     font-weight: 400;
@@ -73,7 +75,7 @@ body {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
   #mainNav .container {
-    padding: 0; }
+    padding: 0;}
     #mainNav .container .navbar-brand {
       color: rgb(192,180,157);
       letter-spacing: 10px;
@@ -164,7 +166,8 @@ header.masthead {
 
 .service-heading {
   margin: 15px 0;
-  text-transform: none; }
+  text-transform: none;
+  color: rgb(192,180,157)}
 
 #portfolio .portfolio-item {
   right: 0;
