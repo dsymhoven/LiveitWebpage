@@ -32,12 +32,12 @@ section {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
-    color: #c5a995;}
-    section h2.section-test {
+    color: rgb(192,180,157);}
+    section h2.section-heading-white {
       font-size: 40px;
       margin-top: 0;
       margin-bottom: 15px;
-      color: black;
+      color: white;
     }
   section h3.section-subheading {
     font-size: 16px;
@@ -84,11 +84,11 @@ body {
   #mainNav .container {
     padding: 0;}
     #mainNav .container .navbar-brand {
-      color: #c5a995;
+      color: rgb(192,180,157);
       letter-spacing: 10px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial; }
       #mainNav .container .navbar-brand:hover, #mainNav .container .navbar-brand:focus, #mainNav .container .navbar-brand:active, #mainNav .container .navbar-brand.active {
-        color: #c5a995; }
+        color: rgb(192,180,157); }
     #mainNav .container .navbar-nav .nav-item .nav-link {
       font-size: 90%;
       font-weight: 400;
@@ -98,7 +98,7 @@ body {
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; }
       #mainNav .container .navbar-nav .nav-item .nav-link:hover, #mainNav .container .navbar-nav .nav-item .nav-link.active {
-        color: #c5a995; }
+        color: rgb(192,180,157); }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -178,7 +178,7 @@ section.background {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/portfolio_bg.jpg) no-repeat bottom center scroll;
+  background: url(../img/portfolio-bg.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -188,7 +188,7 @@ section.background {
 .service-heading {
   margin: 15px 0;
   text-transform: none;
-  color: #c5a995}
+  color: rgb(192,180,157)}
 
 /*rgb(192,180,157)*/
 #portfolio .portfolio-item {
@@ -208,7 +208,7 @@ section.background {
       -moz-transition: all ease .5s;
       transition: all ease .5s;
       opacity: 0;
-      background: rgba(197, 169, 149, 0.9); }
+      background: rgba(192, 180, 157, 0.9); }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
         opacity: 1; }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -261,7 +261,7 @@ section.background {
   border-radius: 100% !important;
   background: transparent; }
   .btn-circle:hover, .btn-circle:focus {
-    color: #c5a995;
+    color: rgb(192,180,157);
     outline: none;
     background: rgba(192,180,157,0.1);}
 
