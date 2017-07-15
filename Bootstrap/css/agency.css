@@ -32,7 +32,13 @@ section {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
-    color: rgb(192,180,157);}
+    color: #c5a995;}
+    section h2.section-test {
+      font-size: 40px;
+      margin-top: 0;
+      margin-bottom: 15px;
+      color: black;
+    }
   section h3.section-subheading {
     font-size: 16px;
     font-weight: 400;
@@ -40,6 +46,7 @@ section {
     margin-bottom: 75px;
     text-transform: none;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
 
 @media (min-width: 768px) {
   section {
@@ -77,11 +84,11 @@ body {
   #mainNav .container {
     padding: 0;}
     #mainNav .container .navbar-brand {
-      color: rgb(192,180,157);
+      color: #c5a995;
       letter-spacing: 10px;
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial; }
       #mainNav .container .navbar-brand:hover, #mainNav .container .navbar-brand:focus, #mainNav .container .navbar-brand:active, #mainNav .container .navbar-brand.active {
-        color: rgb(192,180,157); }
+        color: #c5a995; }
     #mainNav .container .navbar-nav .nav-item .nav-link {
       font-size: 90%;
       font-weight: 400;
@@ -91,7 +98,7 @@ body {
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; }
       #mainNav .container .navbar-nav .nav-item .nav-link:hover, #mainNav .container .navbar-nav .nav-item .nav-link.active {
-        color: rgb(192,180,157); }
+        color: #c5a995; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -164,11 +171,26 @@ header.masthead {
       font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
       text-transform: uppercase; } }
 
+section.background {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  background: url(../img/portfolio_bg.jpg) no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .service-heading {
   margin: 15px 0;
   text-transform: none;
-  color: rgb(192,180,157)}
+  color: #c5a995}
 
+/*rgb(192,180,157)*/
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px; }
@@ -186,7 +208,7 @@ header.masthead {
       -moz-transition: all ease .5s;
       transition: all ease .5s;
       opacity: 0;
-      background: rgba(254, 209, 54, 0.9); }
+      background: rgba(197, 169, 149, 0.9); }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
         opacity: 1; }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -239,7 +261,7 @@ header.masthead {
   border-radius: 100% !important;
   background: transparent; }
   .btn-circle:hover, .btn-circle:focus {
-    color: rgb(192,180,157);
+    color: #c5a995;
     outline: none;
     background: rgba(192,180,157,0.1);}
 
